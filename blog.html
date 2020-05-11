@@ -1,0 +1,362 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>SoftDigits Technologies</title>
+	<link rel="icon" type="image/ico" href="logo2.jpg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FreeHTML5.co" />
+
+  <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	
+	
+	<div id="fh5co-page">
+	<header id="fh5co-header" role="banner">
+		<div class="container-fluid" style="background-color:#216366;">
+		<div class="header-inner">
+				<a href="index.html"><img src="logo.png" alt="" width="250px" height="100px" style="margin-left:--75px;"/></a>
+				<nav role="navigation">
+					<ul>
+						<li ><a href="index.html" style="color:white;">Home</a></li>
+						<li><a href="about.html" style="color:white;">About Us</a></li>
+						<li ><a href="services.html" style="color:white;">Services</a></li>
+						<li><a href="course.html" style="color:white;">Courses</a></li>
+						<li><a href="workshop.html" style="color:white;">Workshops</a></li>
+						<li class="active"><a href="blog.html" style="color:white;">Blog</a></li>
+						<li><a href="contact.html" style="color:white;">Contact Us</a></li>
+						
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	
+
+	<section id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>Blog Posts</h2>
+        </div>
+      </div>
+      <div class="blog-posts">
+        <div class="row">
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="post-thumb">
+              <a href="http://www.articlesandblogs.com"><img class="img-responsive" src="images/blog/1.jpg" alt=""></a> 
+              <div class="post-meta">
+                <span><i class="fa fa-comments-o"></i> 3 Comments</span>
+                <span><i class="fa fa-heart"></i> 0 Likes</span> 
+              </div>
+              <div class="post-icon">
+                <i class="fa fa-pencil"></i>
+              </div>
+            </div>
+            <div class="entry-header">
+              <h3><a href="#">Antique Jewelry- Reasons to Purchase This Unique Type of Jewelry</a></h3>
+              <span class="date">February 26, 2016</span>
+              <span class="cetagory">in <strong>Jewelry</strong></span>
+            </div>
+            <div class="entry-content">
+<title>jQuery Add Read More Link</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var maxLength = 300;
+	$(".show-read-more").each(function(){
+		var myStr = $(this).text();
+		if($.trim(myStr).length > maxLength){
+			var newStr = myStr.substring(0, maxLength);
+			var removedStr = myStr.substring(maxLength, $.trim(myStr).length);
+			$(this).empty().html(newStr);
+			$(this).append(' <a href="javascript:void(0);" class="read-more">read more...</a>');
+			$(this).append('<span class="more-text">' + removedStr + '</span>');
+		}
+	});
+	$(".read-more").click(function(){
+		$(this).siblings(".more-text").contents().unwrap();
+		$(this).remove();
+	});
+});
+</script>
+<style type="text/css">
+    .show-read-more .more-text{
+        display: none;
+    }
+</style>
+</head>
+<body>
+    <p class="show-read-more">There are lots of several types of jewelry pieces available to accessory lovers nowadays. For those who want to dress up a daytime outfit, casual jewelry could be a way. On the other hand, individuals that are going out for a fancy night on the town may wish to wear something with extravagance and a little bit more flair. Antique jewelry is one type of accessory that has a fan base all its own. Some jewelry connoisseurs find that classic jewelry holds the most appeal for them for some reasons.
+This type of accessory has been passed down from generation to generation in many instances and would have the world to tell if it was in a position to place its past into words. Not only do some classic jewelry lovers would like to wear the piece of history on their person. However, they also love researching its origin and finding out more about its historic background.
+Design of the Piece Suits the Individual
+Others who purchase this form of an item often like to achieve this for the sheer reason that it suits their individual style. Many people have an antique flair about them as accessorize, and they desire to dress in a design concomitant using the past. Whether it's an antique pin or century-old necklace, the item that is antique might go together with the attire which the individual chooses to wear on a daily basis. Finding a jewelry thing which coincides with the overall look of one is just another reason classic jewelry is sought after.
+Beautiful Craftsmanship of Antique Jewelry
+It's often said that they only don't make things these days in the same long-lasting, exquisite fashion as they did in the previous decades and centuries. This applies to a variety of things yet can be said to apply to antique jewellery as well. The way in which these types of pieces were crafted not only presents a beautiful finished product, but it's one which will endure the test of time.
+Antique Jewelry as an Investment
+Antique jewelry can also be purchased by some as a type of investment. Investing in the historical value of antique jewelry might be a sensible choice for particular people to make. Even if the jewelry isn't going to be worn; it is still going to have a value. Purpose of purchasing this antique Indian is another mentioned reason why people buy it.
+</p>
+</body>
+</html>                                		
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="post-thumb">
+              <div id="post-carousel"  class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#post-carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#post-carousel" data-slide-to="1"></li>
+                  <li data-target="#post-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <a href="#"><img class="img-responsive" src="images/blog/2.jpg" alt=""></a>
+                  </div>
+                  <div class="item">
+                    <a href="#"><img class="img-responsive" src="images/blog/1.jpg" alt=""></a>
+                  </div>
+                  <div class="item">
+                    <a href="#"><img class="img-responsive" src="images/blog/3.jpg" alt=""></a>
+                  </div>
+                </div>                               
+                <a class="blog-left-control" href="#post-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                <a class="blog-right-control" href="#post-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+              </div>                            
+              <div class="post-meta">
+                <span><i class="fa fa-comments-o"></i> 3 Comments</span>
+                <span><i class="fa fa-heart"></i> 0 Likes</span> 
+              </div>
+              <div class="post-icon">
+                <i class="fa fa-picture-o"></i>
+              </div>
+            </div>
+            <div class="entry-header">
+              <h3><a href="#">Why Conduct SEO Analysis?</a></h3>
+			  <br/>
+              <span class="date">February 26, 2016</span>
+              <span class="cetagory">in <strong>Technologies</strong></span>
+            </div>
+            <div class="entry-content">
+              <title>jQuery Add Read More Link</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var maxLength = 300;
+	$(".show-read-more").each(function(){
+		var myStr = $(this).text();
+		if($.trim(myStr).length > maxLength){
+			var newStr = myStr.substring(0, maxLength);
+			var removedStr = myStr.substring(maxLength, $.trim(myStr).length);
+			$(this).empty().html(newStr);
+			$(this).append(' <a href="javascript:void(0);" class="read-more">read more...</a>');
+			$(this).append('<span class="more-text">' + removedStr + '</span>');
+		}
+	});
+	$(".read-more").click(function(){
+		$(this).siblings(".more-text").contents().unwrap();
+		$(this).remove();
+	});
+});
+</script>
+<style type="text/css">
+    .show-read-more .more-text{
+        display: none;
+    }
+</style>
+</head>
+<body>
+    <p class="show-read-more">SEO is the backbone of all advertising efforts online. You have a web site and need to invest in search engine optimization if you operate a small business. It is impossible to rate and assemble traffic that is great without employing Search Engine Optimization strategies. When using such strategies, in addition, you need to be conscious of your adversaries. It is not possible to devise a successful strategy if you do not be aware of what the rest are doing. See and you need to check what your opponents are doing to come up with something. You have to carry out a Search Engine Optimization analysis to understand what SEO techniques they've been employing. It's inescapable for success, although some view it as boring. In fact, you should run an in-depth and funded investigation as soon as you see the advantages it can give you. Read on to find out more about SEO evaluation.
+Prior to SEO Analysis
+You will need to remember several matters that are important when consenting to a SEO analysis. You've got to organize your own personal website to be monitored by the analytics correctly. It's not possible to check and assess the Search Engine Optimization metrics of your competitors in the event that you Can’t measure your own. By setting your site 's analytics, you are given an excellent chance to create the standards. Variables you must trail or a few significant advices include:
+- Page by page per month
+- Inbound links conversion rates
+Many SEO experts also advocate setting up before analyzing any challenger pages, or carrying out a keyword research campaign. The idea of SEO is key words. They may be essential building blocks. You need to choose the best key words for the strategy to work. This does not mean you need to work with the keywords you see automatically. Having an idea what your competitors use is a great foundation to your own keyword research.
+You must select competitions to conduct a trusted free SEO analysis along with a competitor analysis. Some businesses find this simple to do while others do not, particularly when they feature an extensive selection of products or services. Folks interpret the word "competitor" differently. Some think their direct competitors is businesses or those firms in their region. 
+</p>
+</body>
+</html>   
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div class="post-thumb">
+              <a href="#"><img class="img-responsive" src="images/blog/3.jpg" alt=""></a>
+              <div class="post-meta">
+                <span><i class="fa fa-comments-o"></i> 3 Comments</span>
+                <span><i class="fa fa-heart"></i> 0 Likes</span> 
+              </div>
+              <div class="post-icon">
+                <i class="fa fa-video-camera"></i>
+              </div>
+            </div>
+            <div class="entry-header">
+              <h3><a href="#">Understanding Responsive Design and Its Benefits to Your Business</a></h3>
+              <span class="date">February 26, 2016</span>
+              <span class="cetagory">in <strong>Technologies</strong></span>
+            </div>
+            <div class="entry-content">
+            <title>jQuery Add Read More Link</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var maxLength = 300;
+	$(".show-read-more").each(function(){
+		var myStr = $(this).text();
+		if($.trim(myStr).length > maxLength){
+			var newStr = myStr.substring(0, maxLength);
+			var removedStr = myStr.substring(maxLength, $.trim(myStr).length);
+			$(this).empty().html(newStr);
+			$(this).append(' <a href="javascript:void(0);" class="read-more">read more...</a>');
+			$(this).append('<span class="more-text">' + removedStr + '</span>');
+		}
+	});
+	$(".read-more").click(function(){
+		$(this).siblings(".more-text").contents().unwrap();
+		$(this).remove();
+	});
+});
+</script>
+<style type="text/css">
+    .show-read-more .more-text{
+        display: none;
+    }
+</style>
+</head>
+<body>
+    <p class="show-read-more">Every business will find having a website is compulsory using the world as it is, being as wired. But, the idea of needing to create a web site to be used using a computer, then redesign this site to be used with other mobile devices as well as Android cellphones can cause a company going through financial issues or simply locating the design of multiple websites to be overly stressful. There is an innovative and new manner by which companies can get the best of all worlds when it comes to their website. That is via using reactive design. Design that is responsive is the ability to possess the company’s website assembled by one web designer where the design will soon be compatible with all apparatus.
+The usage of design that is reactive is a relatively new notion this is the way the future of web design is going to go. The basis for this is the tremendous benefits it offers businesses. The primary benefit is the time that will be saved through using the design that is reactive. In creating a web site which is perfect in all manners, using the added time the company will face, they can spend additional time.
+Additionally, it means less money a business is paying to their web designer because using a design that is responsive does use less time. In a market by which businesses are being forced out each day due to adversities, saving cash is the way in which businesses prosper and survive in the market. Using responsive design will enable one price for a web design that may go across the board regarding which this can be utilized by apparatus and find a completely functional site to browse.
+Finally, the company is going to have the added benefit of being one of the primary companies in their region to utilize responsive design. Every web designer has not fully adopted the reactive design technique out there. The explanation for this varies; nevertheless, it'll be the website design technique of the long run. For companies who already utilize this for their site, they are ahead of the curve in comparison with their competitors.
+Together with using the responsive design technique, businesses are going to have less time committed for their site, yet may have a create internet page | create website that is completely aimed towards the satisfaction of the buyer. This sets the company securely in the consumer’s head as a company to work with when consumers can utilize a website no matter where they are nor the type of device they are using.
+</p>
+</body>
+</html>   
+            </div>
+          </div>                    
+        </div>
+        <div class="load-more wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+          <a href="#" class="btn-loadmore"><i class="fa fa-repeat"></i> Load More</a>
+        </div>                
+      </div>
+    </div>
+  </section><!--/#blog-->
+
+	
+	
+
+	<footer id="fh5co-footer" role="contentinfo">
+	
+		<div class="container">
+			<div class="col-md-3 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+				<h3>About Us</h3>
+				<p>We are better than the best!
+Find out why we are the fastest growing IT company in the world.
+ </p>
+				<p><a href="#" class="btn btn-primary btn-outline with-arrow btn-sm">Join Us <i class="icon-arrow-right"></i></a></p>
+			</div>
+			<div class="col-md-6 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+				<h3>Our Services</h3>
+				<ul class="float">
+					<li><a href="wd.html">Web Development</a></li>
+					<li><a href="id.html">Instructional Design</a></li>
+					<li><a href="cw.html">Content Writing</a></li>
+					<li><a href="gd.html">Graphic Designing</a></li>
+					<li><a href="dm.html">Digital Marketing</a></li>
+					<li><a href="dmc.html">Digital Marketing Course</a></li>
+					
+				</ul>
+
+			</div>
+
+			<div class="col-md-2 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+				<h3>Follow Us</h3>
+				<ul class="fh5co-social">
+					<li><a href="#"><i class="icon-twitter"></i></a></li>
+					<li><a href="#"><i class="icon-facebook"></i></a></li>
+					<li><a href="#"><i class="icon-google-plus"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+				</ul>
+			</div>
+			
+			
+			
+			
+		</div>
+	</footer>
+	</div>
+	
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
